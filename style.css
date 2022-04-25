@@ -138,3 +138,159 @@ header div a:nth-child(1) {
 }
 
 /*  ======== end of header section ======= */
+/* ========= start of introduction section ======== */
+#introduction {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#introduction section:nth-child(1) {
+  width: 50%;
+}
+
+#introduction section:nth-child(1) h1 {
+  color: white;
+  font-size: 5rem;
+  /* padding-right: 10rem; */
+  line-height: 85px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+#introduction section:nth-child(1) p {
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 300;
+  /* padding-right: 10rem; */
+  margin-bottom: 3rem;
+}
+
+#introduction section:nth-child(1) a {
+  text-decoration: none;
+  color: #fff;
+  border: solid #d7d7d7 1px;
+  padding: 0.7rem 3.5rem;
+  border-radius: 12px;
+  font-weight: 600;
+  margin: 0 1rem 0 0.5rem;
+}
+
+#introduction section:nth-child(1) a:nth-child(1) {
+  border: none;
+  background: linear-gradient(
+    103.91deg,
+    #9b51e0 21.01%,
+    rgba(48, 129, 237, 0.8) 100%
+  );
+}
+
+#introduction section:nth-child(2) {
+  width: 50%;
+  /* border: solid #fff 1px; */
+  padding: 0 3rem;
+}
+
+#introduction section:nth-child(2) .card {
+  width: 80%;
+  float: right;
+  border-radius: 15px;
+  padding: 1.5rem;
+  text-align: center;
+  background: linear-gradient(
+    169.44deg,
+    rgba(58, 129, 191, 0.08) 1.85%,
+    rgba(65, 48, 90, 0.08) 98.72%
+  );
+  backdrop-filter: blur(40px);
+  position: relative;
+}
+
+#introduction section:nth-child(2) .card::before {
+  content: '';
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  position: absolute;
+  top: -3rem;
+  left: -3rem;
+  background: #fb37ff;
+  filter: blur(85px);
+}
+
+#introduction section:nth-child(2) .card::after {
+  content: '';
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -3rem;
+  right: -3rem;
+  border: solid;
+  background: #18b2de;
+  filter: blur(85px);
+}
+
+#introduction section:nth-child(2) .card img {
+  width: 100%;
+}
+
+#introduction section:nth-child(2) .user-info {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+#introduction section:nth-child(2) .user-info::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 15px;
+  padding: 0.88px;
+  background: linear-gradient(
+    168.82deg,
+    #fb37ff 1.7%,
+    rgba(155, 111, 238, 0) 27.12%,
+    rgba(123, 127, 234, 0) 61.28%,
+    #1bb2de 99.52%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+#introduction section:nth-child(2) .user-info .user {
+  display: flex;
+  align-items: center;
+}
+
+#introduction section:nth-child(2) .user-info .user div h4 {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+#introduction section:nth-child(2) .user-info .user img {
+  width: 3rem;
+  margin-right: 0.5rem;
+}
+
+#introduction section:nth-child(2) .user-info .icon {
+  text-align: right;
+}
+
+#introduction section:nth-child(2) .user-info .icon h4 {
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+  font-weight: 600;
+}
+
+#introduction section:nth-child(2) .user-info .icon img {
+  width: 1.3rem;
+  margin-right: 0.5rem;
+}
+/* ========= end of introduction section ======== */
