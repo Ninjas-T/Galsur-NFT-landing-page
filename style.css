@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   transition: all 0.25s ease-in-out;
   scroll-behavior: smooth;
 }
 
 body {
   padding: 0 4rem;
+color:white;
   background: #1f1d2b;
 }
 
@@ -75,7 +76,7 @@ header nav ul li a {
 }
 
 header nav ul li a::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -4px;
   left: 0;
@@ -178,9 +179,11 @@ header div a:nth-child(1) {
 
 #introduction section:nth-child(1) a:nth-child(1) {
   border: none;
-  background: linear-gradient(103.91deg,
-      #9b51e0 21.01%,
-      rgba(48, 129, 237, 0.8) 100%);
+  background: linear-gradient(
+    103.91deg,
+    #9b51e0 21.01%,
+    rgba(48, 129, 237, 0.8) 100%
+  );
 }
 
 #introduction section:nth-child(2) {
@@ -195,15 +198,17 @@ header div a:nth-child(1) {
   border-radius: 15px;
   padding: 1.5rem;
   text-align: center;
-  background: linear-gradient(169.44deg,
-      rgba(58, 129, 191, 0.08) 1.85%,
-      rgba(65, 48, 90, 0.08) 98.72%);
+  background: linear-gradient(
+    169.44deg,
+    rgba(58, 129, 191, 0.08) 1.85%,
+    rgba(65, 48, 90, 0.08) 98.72%
+  );
   backdrop-filter: blur(40px);
   position: relative;
 }
 
 #introduction section:nth-child(2) .card::before {
-  content: '';
+  content: "";
   width: 115px;
   height: 115px;
   border-radius: 50%;
@@ -215,7 +220,7 @@ header div a:nth-child(1) {
 }
 
 #introduction section:nth-child(2) .card::after {
-  content: '';
+  content: "";
   width: 115px;
   height: 115px;
   border-radius: 50%;
@@ -240,7 +245,7 @@ header div a:nth-child(1) {
 }
 
 #introduction section:nth-child(2) .user-info::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -248,11 +253,13 @@ header div a:nth-child(1) {
   bottom: 0;
   border-radius: 15px;
   padding: 0.88px;
-  background: linear-gradient(168.82deg,
-      #fb37ff 1.7%,
-      rgba(155, 111, 238, 0) 27.12%,
-      rgba(123, 127, 234, 0) 61.28%,
-      #1bb2de 99.52%);
+  background: linear-gradient(
+    168.82deg,
+    #fb37ff 1.7%,
+    rgba(155, 111, 238, 0) 27.12%,
+    rgba(123, 127, 234, 0) 61.28%,
+    #1bb2de 99.52%
+  );
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
@@ -295,8 +302,8 @@ header div a:nth-child(1) {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin: 10rem 0 2rem; 
-  color: #FFFFFF;
+  margin: 10rem 0 2rem;
+  color: #ffffff;
 }
 
 #auctions h2 {
@@ -306,13 +313,13 @@ header div a:nth-child(1) {
 
 #auctions div p {
   font-size: 1rem;
-  color: #D7D7D7;
+  color: #d7d7d7;
 }
 
 #auctions div a {
   font-size: 1rem;
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
   align-items: center;
 }
@@ -325,7 +332,7 @@ header div a:nth-child(1) {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 1rem;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 figure figcaption,
@@ -346,20 +353,20 @@ figure figcaption p:nth-child(2) {
 
 figure div p {
   font-size: 0.7rem;
-  color: #BCBCBC;
+  color: #bcbcbc;
 }
 
 figure div p span {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 figure div a {
   text-decoration: none;
   font-size: 0.8rem;
   padding: 0.1rem 1.3rem;
-  border: 1px solid #E2E2E2;
+  border: 1px solid #e2e2e2;
   border-radius: 8px;
-  color: #E2E2E2;
+  color: #e2e2e2;
 }
 /* ========= end of hot auction section ======== */
 
@@ -384,7 +391,7 @@ figure div a {
 }
 
 #getting-started > p {
-  color: #E2E2E2;
+  color: #e2e2e2;
   font-weight: 400;
   font-size: 1.5rem;
   letter-spacing: 0.5px;
@@ -418,7 +425,7 @@ figure div a {
   background-color: rgba(255, 255, 255, 0.095);
   backdrop-filter: blur(75px);
   box-shadow: inset 2.01px -2.01px 20px rgba(214, 214, 214, 0.17),
-  inset -3.01333px 3.01333px 3.01333px rgba(255, 255, 255, 0.39);
+    inset -3.01333px 3.01333px 3.01333px rgba(255, 255, 255, 0.39);
   margin-bottom: 1.5rem;
 }
 
@@ -449,3 +456,123 @@ figure div a {
 }
 
 /* GETTING STARTED SECTION STAYLE ENDS */
+#discover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#discover .header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#discover .logo_container {
+  height: 100%;
+  margin-top: 15px;
+  color: rgb(253, 253, 252);
+}
+#discover .navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#discover .navigation a {
+  display: table;
+  float: left;
+  padding: 0.8rem 2.5rem;
+}
+
+#discover .navigation a li {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: white;
+  font-size: 16px;
+}
+
+#discover .nav_img1 {
+  margin-right: 11.17px;
+  width: 18px;
+}
+
+#discover .nav_img2 {
+  margin-left: 7px;
+  width: 14px;
+}
+
+#discover .nav_img3 {
+  width: 18.27px;
+
+  margin-right: 4px;
+}
+#discover .filter {
+  background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
+  border-radius: 10px;
+}
+
+/* End Header */
+
+/* <!-- Start information style --> */
+#discover #parent .Prodacts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-bottom: 82.5px;
+}
+
+#discover #parent .Prodacts .Prodact .image img {
+  width: 100%;
+}
+
+#discover #parent .Prodacts .Prodact .info {
+  margin-top: 24px;
+  color: white;
+  font-size: 16px;
+}
+
+#discover #parent .Prodacts .Prodact .info hr {
+  margin-top: 16px;
+  margin-bottom: 26.5px;
+}
+
+#discover #parent .Prodacts .Prodact .info span {
+  float: right;
+}
+
+#discover #parent .Prodacts .Prodact .info span input {
+  width: 50px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  padding: 3px;
+  color: #fff;
+}
+/* <!-- End information style --> */
+
+#discover button {
+  display: inline-block;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid rgb(228, 220, 220);
+  background-color: #1f1d2b;
+  color: #818080;
+  width: 15%;
+  height: 45px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 80.5px auto;
+  padding: 0.8rem 2.5rem;
+}
+
+#discover button:hover {
+  background: #818080;
+  color: #1f1d2b;
+}
+
+/* Discover Section style End  */
