@@ -313,7 +313,7 @@ header div a:nth-child(1) {
 }
 
 #auctions div p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #d7d7d7;
 }
 
@@ -330,9 +330,11 @@ header div a:nth-child(1) {
 }
 
 #cards {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
   color: #ffffff;
 }
 
@@ -456,7 +458,7 @@ figure div a {
   opacity: 1;
 }
 
-/* GETTING STARTED SECTION STAYLE ENDS */
+/* GETTING STARTED SECTION STYLE ENDS */
 #discover {
   display: flex;
   justify-content: center;
@@ -484,6 +486,7 @@ figure div a {
 }
 
 #discover .navigation a {
+  text-decoration: none;
   display: table;
   float: left;
   padding: 0.8rem 2.5rem;
