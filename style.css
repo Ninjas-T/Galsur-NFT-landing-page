@@ -1,17 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   transition: all 0.25s ease-in-out;
   scroll-behavior: smooth;
 }
 
 body {
   padding: 0 4rem;
-color:white;
+  color: white;
   background: #1f1d2b;
 }
 
@@ -76,7 +76,7 @@ header nav ul li a {
 }
 
 header nav ul li a::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: -4px;
   left: 0;
@@ -133,6 +133,11 @@ header div a {
   font-weight: 500;
 }
 
+header div a:hover {
+  filter: brightness(5);
+  transition: all 0.8s ease;
+}
+
 header div a:nth-child(1) {
   border: solid #bcbcbc 1px;
   border-radius: 10px;
@@ -186,16 +191,21 @@ header div a:nth-child(1) {
   );
 }
 
+#introduction section:nth-child(1) a:hover {
+  background: #fff;
+  color: #9851e0;
+  transition: all 0.8s ease;
+}
+
 #introduction section:nth-child(2) {
   width: 50%;
-  /* border: solid #fff 1px; */
-  padding: 0 3rem;
+  display: flex;
+  justify-content: end;
 }
 
 #introduction section:nth-child(2) .card {
-  width: 80%;
-  float: right;
-  border-radius: 15px;
+  width: 72%;
+  border-radius: 37px;
   padding: 1.5rem;
   text-align: center;
   background: linear-gradient(
@@ -208,7 +218,7 @@ header div a:nth-child(1) {
 }
 
 #introduction section:nth-child(2) .card::before {
-  content: "";
+  content: '';
   width: 115px;
   height: 115px;
   border-radius: 50%;
@@ -220,7 +230,7 @@ header div a:nth-child(1) {
 }
 
 #introduction section:nth-child(2) .card::after {
-  content: "";
+  content: '';
   width: 115px;
   height: 115px;
   border-radius: 50%;
@@ -245,14 +255,14 @@ header div a:nth-child(1) {
 }
 
 #introduction section:nth-child(2) .user-info::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
   right: 0;
   bottom: 0;
-  border-radius: 15px;
-  padding: 0.88px;
+  border-radius: 37px;
+  padding: 1px;
   background: linear-gradient(
     168.82deg,
     #fb37ff 1.7%,
@@ -262,7 +272,6 @@ header div a:nth-child(1) {
   );
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
-  mask-composite: exclude;
 }
 
 #introduction section:nth-child(2) .user-info .user {
@@ -647,7 +656,7 @@ footer h3 {
   font-weight: 400;
 }
 
-footer div#copyright ul{
+footer div#copyright ul {
   flex-direction: row;
 }
 
